@@ -7,10 +7,7 @@ print(2*2+2)
 print(2*(2+2))
 print((2*2+2)==(2*(2+2)))
 #"4th program"
-print('123.456')
-print(123.456)
-print(123.456*10)
-print(1234.56%10)
-print(int(4.559999999999945))
+print(int((float('123.456')-int(float('123.456')))*10))
+
 
 
